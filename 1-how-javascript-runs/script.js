@@ -44,3 +44,9 @@ const myFunction = function (a, b) {
     console.log(a + b);
 }
 myFunction(5, 5);
+
+function sayHello(func){
+    console.log('Hello form say hello function:');
+    func(10, 10);
+}
+sayHello(myFunction);
