@@ -39,3 +39,8 @@ function add2(a, b) {
     console.log(a + b);
 }
 add2(1, 2);
+
+const myFunction = function (a, b) {
+    console.log(a + b);
+}
+myFunction(5, 5);
