@@ -50,3 +50,8 @@ function sayHello(func){
     func(10, 10);
 }
 sayHello(myFunction);
+
+const arrowFunction = (a, b) => {
+    console.log(a + b);
+}
+arrowFunction(20, 10);
