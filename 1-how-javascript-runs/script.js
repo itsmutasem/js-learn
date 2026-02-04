@@ -7,6 +7,9 @@ let undefinedValue = undefined;
 let symbolValue = Symbol('hello');
 let bigintValue = 1234567890123456789012345678901234567890n;
 
+// can not change the value when using const
+const username = 'John Doe';
+
 console.log(num);
 console.log(flot);
 console.log(stringValue);
