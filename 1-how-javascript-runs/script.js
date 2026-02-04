@@ -19,9 +19,23 @@
 // console.log(symbolValue);
 // console.log(bigintValue);
 
-const score = "0";
-if (score === false) {
-    console.log('You passed the exam!');
-} else {
-    console.log('You failed the exam!');
+
+// const score = "0";
+// if (score === false) {
+//     console.log('You passed the exam!');
+// } else {
+//     console.log('You failed the exam!');
+// }
+
+
+function add(a, b) {
+    return a + b;
 }
+let result = add(1, 2);
+console.log(result);
+console.log(add(2, 3));
+
+function add2(a, b) {
+    console.log(a + b);
+}
+add2(1, 2);
