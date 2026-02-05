@@ -5,3 +5,5 @@ console.log(person [2]); // undefined
 
 const mixture = ['John', 23, true];
 console.log(mixture);
+mixture.push('new element');
+console.log(mixture);
