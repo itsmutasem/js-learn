@@ -4,6 +4,10 @@ console.log(person [0]);
 console.log(person [2]); // undefined
 
 const mixture = ['John', 23, true];
-console.log(mixture);
+console.log(mixture)
+;
 mixture.push('new element');
 console.log(mixture);
+
+person.pop()
+console.log(person);
