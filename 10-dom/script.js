@@ -10,3 +10,10 @@ const width = window.innerWidth;
 console.log(width);
 
 alert(title.innerHTML);
+
+const titleElement = document.querySelector(".title-class");
+console.log(titleElement.innerHTML);
+
+const titleElements = document.querySelectorAll(".title-class");
+console.log(titleElements[0].innerHTML);
+console.log(titleElements[1].innerHTML);
