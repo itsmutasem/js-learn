@@ -20,3 +20,13 @@ console.log(person.length);
 
 // use build-in function to print the array
 person.forEach(person => console.log(person));
+
+console.log('===========MAP=============');
+
+// use map function to print the array. you can get the value in map and save it in a new variable
+person.map(person => console.log(person));
+const mappedPerson = person.map(person => {
+    console.log(person);
+    return person + ' is a person';
+});
+console.log(mappedPerson);
