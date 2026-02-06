@@ -15,3 +15,8 @@ console.log(mixture);
 for (let i = 0; i < person.length; i++) {
     console.log(person[i]);
 }
+console.log(person.length);
+
+
+// use build-in function to print the array
+person.forEach(person => console.log(person));
