@@ -15,3 +15,7 @@ const personArray = [
     { name: 'Jane', age: 22 }
 ];
 console.log(personArray);
+const singleElement = personArray.find((p) => p.name === 'John');
+console.log(singleElement);
+singleElement.age = 26;
+console.log(personArray);
