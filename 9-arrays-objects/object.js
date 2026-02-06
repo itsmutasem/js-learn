@@ -9,3 +9,9 @@ console.log(person.name.firstName);
 console.log(person);
 
 // array object
+const personArray = [
+    { name: 'Mutasem', age: 21 },
+    { name: 'John', age: 25 },
+    { name: 'Jane', age: 22 }
+];
+console.log(personArray);
