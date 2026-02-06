@@ -17,3 +17,6 @@ console.log(titleElement.innerHTML);
 const titleElements = document.querySelectorAll(".title-class");
 console.log(titleElements[0].innerHTML);
 console.log(titleElements[1].innerHTML);
+
+const myInput = document.getElementById("input");
+console.log(myInput.value);
