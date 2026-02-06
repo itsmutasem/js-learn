@@ -30,3 +30,5 @@ const mappedPerson = person.map(person => {
     return person + ' is a person';
 });
 console.log(mappedPerson);
+// abstract map with arrow function
+person.map(person => console.log(person.includes('m') ? person + ' is a human' : person + ' is not a human'));
