@@ -8,3 +8,5 @@ window.document.getElementById("title").innerHTML = "Hello World3";
 
 const width = window.innerWidth;
 console.log(width);
+
+alert(title.innerHTML);
