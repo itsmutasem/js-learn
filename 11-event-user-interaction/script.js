@@ -3,3 +3,8 @@ const showButton = document.getElementById("showButton");
 showButton.addEventListener("click", function(){
     console.log("Button clicked");
 })
+
+const showTitle = () => {
+    console.log("Title clicked");
+}
+showButton.addEventListener("click", showTitle);
