@@ -13,3 +13,8 @@ const showEvent = (event) => {
     console.log(event.target.innerText);
 }
 showButton.addEventListener("click", showEvent);
+
+const myInput = document.getElementById("myInput");
+myInput.addEventListener("keydown", (event) => {
+    console.log(event.target.value);
+});
