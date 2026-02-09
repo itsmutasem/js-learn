@@ -8,3 +8,8 @@ const showTitle = () => {
     console.log("Title clicked");
 }
 showButton.addEventListener("click", showTitle);
+
+const showEvent = (event) => {
+    console.log(event.target.innerText);
+}
+showButton.addEventListener("click", showEvent);
