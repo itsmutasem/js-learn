@@ -17,4 +17,8 @@ showButton.addEventListener("click", showEvent);
 const myInput = document.getElementById("myInput");
 myInput.addEventListener("keydown", (event) => {
     console.log(event.target.value);
+    console.log(event.key);
+    if (event.target.value.length === 10 && event.key !== "Backspace") {
+        event.preventDefault();
+    }
 });
